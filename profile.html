@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        /* General Body Styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #ffd1dc, #ffe6f2); /* Melody-inspired pink theme */
+            color: #444;
+            text-align: center;
+        }
+
+        /* Header Styling */
+        h1 {
+            font-family: 'Pacifico', cursive;
+            background: linear-gradient(to right, #ff99cc, #ff66b2);
+            color: white;
+            padding: 20px;
+            margin: 0;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin: 20px 0;
+            color: #555;
+        }
+
+        /* Profile Card Styling */
+        .profile-card {
+            background-color: white;
+            width: 90%;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: left;
+        }
+
+        .profile-card img {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #ffb6c1;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        ul li {
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #ff69b4;
+        }
+
+        /* Navigation Link Styling */
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #ff69b4;
+            font-weight: bold;
+            font-size: 1.1em;
+            background: linear-gradient(to right, #ff99cc, #ff66b2);
+            padding: 10px 20px;
+            border-radius: 25px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        a:hover {
+            background: linear-gradient(to right, #ff66b2, #ff99cc);
+            transform: translateY(-3px);
+            color: white;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 600px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            ul li {
+                font-size: 1em;
+            }
+
+            a {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Back to Home Button -->
+    <a href="index.html">← Back to Home</a>
+
+    <!-- Page Header -->
+    <h1>Profile</h1>
+    <h2>A little bit about me...</h2>
+
+    <!-- Profile Card -->
+    <div class="profile-card">
+        <img src="liyana.jpg" alt="Profile Picture">
+        <ul>
+            <li><span class="label">Name:</span> Intan Nurliyana Binti Azri</li>
+			 <li><span class="label">Student ID:</span> 2022454274</li>
+            <li><span class="label">Age:</span> 20</li>
+            <li><span class="label">Mobile:</span> 0176457231</li>
+			<li><span class="label">Birthplace:</span> Hospital Selayang </li>
+            <li><span class="label">Email:</span> intanliyanazri@gmail.com</li>
+            <li><span class="label">Address:</span> Bandar Bukit Puchong, 47120 Puchong, Selangor</li>
+			 <li><span class="label">Hobby:</span> Taking pictures and making scented candles </li>
+            <li><span class="label">Favorite Food:</span> Buttermilk Chicken</li>
+			<li><span class="label">Favorite Colour:</span> Pink and Black </li>
+			<li><span class="label">Favorite Artist:</span> Wave To Earth </li>
+			
+        </ul>
+    </div>
+</body>
+</html>
